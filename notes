@@ -1,0 +1,20 @@
+NOTES:
+SOCKET.IO
+	Farm:
+        JSON to Stock conversion
+    	JSONDecoder().decode()
+        put into list pass list on to count
+    Count:
+    	call count save count
+
+    Format/Weight:
+    	TO BE DECIDED MAIN ALGORITHM
+
+    Sort:
+    	USE Python sorted()
+    	either use key=[X] where X is the location of weight
+    	or use a class and use key = lambda class: class.weight
+    	then clean off all 0 weights
+
+	Post:
+    	JSonEncoder().encode()
